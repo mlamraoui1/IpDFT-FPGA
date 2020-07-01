@@ -1,5 +1,6 @@
 # IpDFT-FPGA
-Dans ce projet, le but est de construire une bibliothèque de fonction MATLAB permettant l’estimation des composantes d’une sinusoïde perturbée par du bruit et de la distorsion harmonique 
+Dans ce projet, le but est de construire une bibliothèque de fonction MATLAB permettant l’estimation des composantes d’une sinusoïde perturbée par du bruit et de la distorsion harmonique.
+
 L’objectif de ce projet est d’implanter sur FPGA plusieurs des algorithmes étudiés sur FPGA. Dans le cas de l’IpDFT, une DFT sur deux, trois ou quatre points en fréquence, sera calculée à l’aide de l’algorithme de Goertzel [goertzel]. La mise en oeuvre sur carte FPGA avec le principe du Hardware in The Loop permettra une étude rapide des performances statistiques de ces estimateurs.
 
 Ce projet comporte les volets suivants :
